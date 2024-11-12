@@ -20,6 +20,7 @@
     <module>service-discovery-server</module>
     <module>servicea</module>
     <module>serviceb</module>
+    <module>api-gateway</module>
   </modules>
   <properties>
     <java.version>21</java.version>

@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient(name = "SERVICE-A")
 public interface ServiceA {
 
-    @GetMapping("/helloWorld")
+    @GetMapping("/servicea/helloWorld")
     String helloWorld();
 }
